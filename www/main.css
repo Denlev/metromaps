@@ -1,0 +1,158 @@
+body {
+    background-image: url("images/background.png"); /*ФОН*/
+    background-size: 150%;
+    padding: 0;
+    margin: 0;
+}
+
+header > div {
+    float: left;
+}
+
+select {
+    /* Города */
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background: lightslategray;
+    border-radius: 10px;
+    color: white;
+}
+
+#header {
+    /*Шапка*/
+    display: inline-block;
+    height: 200px;
+    width: 700px;
+    background-image: url("images/fon.png");
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px dashed darkturquoise;
+    border-radius: 2%;
+
+}
+
+#menu {
+    /* фон для выбора города*/
+    height: 200px;
+    width: 200px;
+    background-image: url("images/fon.png");
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+
+#header h2 {
+    text-align: center; /*Текст шапки*/
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    position: relative;
+    top: -30px;
+
+}
+
+#paper {
+    /*картинка*/
+    position: relative;
+    top: 0px;
+}
+
+#vopros {
+    /* фон для вопроса*/
+    background-image: url("images/fon.png");
+    text-align: center;
+    width: 197px;
+    border: 2px solid black;
+    font-family: "Comic Sans MS";
+    border-radius: 10px;
+    margin-top: -1px;
+}
+
+#button {
+    /*кнопка выбора города*/
+    position: relative;
+    margin: 40px 0 0 45px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #555555;
+    color: white;
+}
+
+.footer {
+    /* Нижняя херня */
+    position: fixed;
+    left: 37%;
+    bottom: 0;
+    width: 30%;
+    height: 4%;
+    background-color: darkgrey;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Times New Roman";
+    /* Это тоже норм штука, нижний текст фиксируется в одном размере и ему пох на маштабирование */
+    font-size: 1.4vw; /* 1.4% of viewport width */
+    font-style: oblique;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.train_icon {
+    background: url("images/train.ico") no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.train_icon.left {
+    transform: rotate(-15deg);
+    position: relative;
+    right:25px;
+}
+
+.train_icon.right {
+    transform: rotate(15deg);
+    position: relative;
+    left:25px;
+}
+
+.train_logo {
+    background: url("images/metrologo.png")  no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.train_logo.left {
+    transform: rotate(-7deg);
+}
+
+.train_logo.right {
+    transform: rotate(7deg);
+}
+
+.about {
+    /*контент*/
+    display: inline-block;
+    height: 30px;
+    width: 400px;
+    padding: 30px 250px 20px 400px;
+    text-indent: 15px;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.maincontent > div{
+    float: left;
+}
+
+.showmaps{
+    margin: 0 0 0 70px;
+}
