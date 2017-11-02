@@ -1,3 +1,5 @@
+HELLO WORLD
+
 <?php
 $div_with_map = false;
 if (isset($_GET['Submit'])) {
