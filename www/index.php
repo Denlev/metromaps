@@ -1,4 +1,4 @@
-<?php
+<?phpfsdsdffsdsfd
 $div_with_map = false;
 if (isset($_GET['Submit'])) {
     $show_map = $_GET['choose_city'];
